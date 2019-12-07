@@ -1,0 +1,61 @@
+._body{
+
+}
+._p1{
+	font-size: 25px;
+}
+._img{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-origin: initial;
+	backface-visibility: hidden;
+	opacity: 0.7;
+}
+._div1{
+	width: 500px;
+	float: left;
+	
+}
+._div2{
+	width: 500px;
+	float: right;
+	
+
+}
+li a{
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+	text-decoration-line: none;
+}
+
+._button{
+	border-radius: 50px;
+	background-color: grey;
+	color: white;
+    border-radius: 40px;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+}
+._ul1{
+	float: left;
+	width: 50%;
+}
+._ul2{
+	float: right;
+	width: 500px;
+}
+footer{
+	top:90%;
+	font-size: 24px;
+	color: pink;
+	padding-top: 100px;
+	text-decoration-line: none;
+	list-style: none;
+}
+._div{
+	padding-bottom:200px;
+
+}

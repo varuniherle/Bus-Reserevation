@@ -1,0 +1,24 @@
+._body{
+	background-color: lightpink;
+
+}
+._h1{
+	font-size: 30px;
+	color: green;
+	text-align: center;
+}
+._button{
+	background-color: pink;
+	color: white;
+	padding:4px;
+
+}
+._div{
+	font-size: 30px;
+	margin-right: 300px;
+	margin-left: 300px;
+	color: white;
+	background-color: skyblue;
+	border-radius: 5px;
+	padding: 20px;
+}
