@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+    <title>Edit</title>
+    <style>
+        form{
+        background-color:#0029;
+           
+            padding: 20px;
+            width: 500px;
+            text-align: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        body{
+      background-image: url("img/img2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat  ;
+      color: white;
+  }
+  
+    </style>
+</head>
+<body>
+        <center>
+<h1>Edit Price</h1>
+<br>
+<form action="edit.php" method="POST">
+  <div class="form-group">
+    <label for="r_id">Enter Route:</label>
+    <input type="number" name="r_id" style="width: 250px; margin-left: 15px; border: 3px double #CCCCCC; padding:5px 10px;" required>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="price"> EnterPrice:</label>
+    <input type="number" name="price" style="width: 250px; margin-left: 15px; border: 3px double #CCCCCC; padding:5px 10px;" required>
+  </div>
+  <br>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</center>
+    
+</body>
+</html>

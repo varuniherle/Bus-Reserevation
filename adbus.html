@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+    
+    <title>Add bus</title>
+    <style>
+   body{
+      background-image: url("img/img2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat  ;
+      color: white;
+  }
+  form{
+        background-color:#0029;
+        padding: 40px;
+  }
+        </style>
+</head>
+<body>
+
+    <center><h4>ADMIN</h4></center>
+    <br>
+    <div class="container">
+        <form action="adbus.php" method="POST">
+
+            <div class="form-group">
+              <label for="route">Route_id:</label>
+              <input type="number" class="form-control"  placeholder="Enter Route_id" name="r_id" required>
+            </div>
+
+            <div class="form-group">
+              <label for="source">Source:</label>
+              <input type="text" class="form-control" placeholder="Enter source" name="source" required>
+            </div>
+
+            <div class="form-group">
+                    <label for="dest">Destination:</label>
+                    <input type="text" class="form-control" placeholder="Enter Destination" name="dest" required>
+             </div>
+            
+            <div class="form-group">
+                    <label for="price">Price:</label>
+                    <input type="number" class="form-control" placeholder="Enter price" name="price" required>
+            </div>
+            
+            <div class="form-group">
+                    <label for="type">Type:</label>
+                    <input type="text" class="form-control" placeholder="Enter type" name="type" required>
+            </div>
+
+            <div class="form-group">
+                        <label for="time">Time:</label>
+                        <input type="text" class="form-control" placeholder="Enter time" name="time" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        
+        </div>
+    
+</body>
+</html>

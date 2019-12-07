@@ -1,0 +1,18 @@
+table{
+    padding: 30px;
+    background-color: beige;
+    border-radius: 20px;
+}
+h1{
+    padding: 25px;
+    
+        color: rgb(173, 164, 164);
+        text-shadow: 2px 2px 4px #000000;
+    
+}
+body{
+    height: 200px;
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(4, 0, 255, 0.171));
+
+    color: black;
+}
