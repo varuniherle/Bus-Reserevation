@@ -118,7 +118,7 @@ if($num2==1){
 
 </table>
 <br>
-<h5> PLEASE MAKE A NOTE OF THE CID AND PID</h5>
+<h5> PLEASE MAKE A NOTE OF THE Customer Id AND Payment Id</h5>
 <a href="home.php">back to home</a>
 <br>
 <br>
